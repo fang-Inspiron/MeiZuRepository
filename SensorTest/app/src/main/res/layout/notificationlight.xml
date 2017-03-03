@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:divider="@drawable/spacer_medium"
+    android:showDividers="middle|end|beginning"
+    android:orientation="vertical" >
+
+    <RadioGroup  
+	android:id="@+id/notificationLightradioGroup"
+	android:layout_width="fill_parent"  
+	android:layout_height="wrap_content"  
+	android:orientation="vertical">  
+
+	<RadioButton  
+	    android:id="@+id/flickon"  
+	    android:layout_width="wrap_content"  
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/black"
+	    android:layout_weight="1"
+	    android:text="@string/flickonString"/>
+
+	<RadioButton  
+	    android:id="@+id/flickoff"  
+	    android:layout_width="wrap_content"  
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/black"
+	    android:layout_weight="1"
+	    android:text="@string/flickoffString"/>
+
+	<RadioButton  
+	    android:id="@+id/doubleflickon"  
+	    android:layout_width="wrap_content"  
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/black"
+	    android:layout_weight="1"
+	    android:text="@string/doubleflickonString"/>
+
+	<RadioButton  
+	    android:id="@+id/doubleflickoff"  
+	    android:layout_width="wrap_content"  
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/black"
+	    android:layout_weight="1"
+	    android:text="@string/doubleflickoffString"/>
+
+	<RadioButton  
+	    android:id="@+id/ramdonflickon"  
+	    android:layout_width="wrap_content"  
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/black"
+	    android:layout_weight="1"
+	    android:text="@string/ramdonflickonString"/>
+
+	<RadioButton  
+	    android:id="@+id/ramdonflickoff"  
+	    android:layout_width="wrap_content"  
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/black"
+	    android:layout_weight="1"
+	    android:text="@string/ramdonflickoffString"/>
+    </RadioGroup>
+</LinearLayout>

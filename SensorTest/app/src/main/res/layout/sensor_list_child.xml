@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView android:id="@+id/childNoValueYetText" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginLeft="35.0dip"
+        android:text="@string/noValueYet" />
+
+    <com.android.sensortest.DynamicLineChartView android:id="@+id/dynamicPlotView"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip"/>
+
+    <LinearLayout android:orientation="vertical" 
+        android:id="@+id/status" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+
+       <LinearLayout android:gravity="fill_horizontal" 
+           android:id="@+id/values"
+           android:layout_width="fill_parent" 
+           android:layout_height="wrap_content">
+
+            <CheckBox android:textColor="@color/red" 
+                android:id="@+id/value_x" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content"   
+                android:maxLines="1"
+                android:text="@string/x"
+                android:layout_weight="1.0" />
+
+            <CheckBox android:textColor="@color/green" 
+                android:id="@+id/value_y" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content" 
+                android:maxLines="1"
+                android:text="@string/y"
+                android:layout_weight="1.0" />
+
+            <CheckBox android:textColor="@color/blue" 
+                android:id="@+id/value_z" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content" 
+                android:maxLines="1"
+                android:text="@string/z"
+                android:layout_weight="1.0" />
+
+		   <CheckBox android:textColor="@color/blue"
+			   android:id="@+id/value_record"
+			   android:layout_width="fill_parent"
+			   android:layout_height="wrap_content"
+			   android:maxLines="1"
+			   android:text="@string/record"
+			   android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <RadioGroup  
+	android:id="@+id/radioGroup"
+        android:visibility="gone"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"  
+	android:layout_height="wrap_content"  
+	android:gravity="fill_horizontal">  
+
+	<RadioButton  
+	    android:id="@+id/RadioButton1"  
+	    android:layout_width="wrap_content"  
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/black"
+	    android:layout_weight="1"
+	    android:text="@string/RadioButton1"/>
+
+	<RadioButton  
+	    android:id="@+id/RadioButton2"  
+	    android:layout_width="wrap_content"  
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/black"
+	    android:layout_weight="1"
+	    android:text="@string/RadioButton2"/>
+	<RadioButton  
+	    android:id="@+id/RadioButton3"  
+	    android:layout_width="wrap_content"  
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/black"
+	    android:layout_weight="1"
+	    android:text="@string/RadioButton3"/>
+
+	<RadioButton  
+	    android:id="@+id/RadioButton4"  
+	    android:layout_width="wrap_content"  
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/black"
+	    android:layout_weight="1"
+	    android:text="@string/RadioButton4"/>
+    </RadioGroup>
+</LinearLayout>

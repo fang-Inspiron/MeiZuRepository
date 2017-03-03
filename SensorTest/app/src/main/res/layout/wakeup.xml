@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView android:id="@+id/wakingupdeclaration" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:text="@string/wakinguptestdeclaration" 
+        android:textColor="@color/black"/>
+    <TextView android:id="@+id/testcount" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:text="@string/testcountnumber"         
+        android:textColor="@color/black"/>
+    <LinearLayout android:orientation="vertical"
+        android:id="@+id/wakinguplayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sensor Analysis</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="noValueYet">No Value...</string>
+    <string name="x">x</string>
+    <string name="y">y</string>
+    <string name="z">z</string>
+    <string name="record">录制</string>
+    <string name="RadioButton1">FASTEST</string>
+    <string name="RadioButton2">GAME</string>
+    <string name="RadioButton3">UI</string>
+    <string name="RadioButton4">NORMAL</string>
+
+    <string name="AmbiLightSensor">AmbiLight Sensor</string>
+    <string name="ProximitySensor">Proximity Sensor</string>
+    <string name="StepCounterSensor">Step Counter Sensor</string>
+    <string name="AccelerometerSensor">Accelerometer Sensor</string>
+
+    <string name="SensorCtsTesting">Testing...</string>
+
+    <!--Chart Name-->
+    <string name="SensorRegisterTimeCost">Sensor Register Time Cost(num/ms)</string>
+    <string name="FirstEventTimeCost">First Event Time Cost(num/ms)</string>
+    <string name="FlushEventTimeCost">Flush Event Time Cost(num/ms)</string>
+    <string name="FlushTimeCost">Flush Time Cost(num/ms)</string>
+    <string name="InjectSensorDataString">注入数据测试(num/SensorEvent)</string>
+
+    <string name="Notification_Light">Notification Light</string>
+    <string name="ActivatePhone">ActivatePhone</string>
+    <string name="AutoBrightnessSpline">AutoBrightnessSpline</string>
+    <string name="WakelockState">Wake lock State</string>
+    <string name="wakingup">Wake up</string>
+
+    <string name="flickonString">通知灯单闪 开</string>
+    <string name="flickoffString">通知灯单闪 关闭</string>
+    <string name="doubleflickonString">通知灯双闪 开</string>
+    <string name="doubleflickoffString">通知灯双闪 关闭</string>
+    <string name="ramdonflickonString">通知灯随机单双闪 开</string>
+    <string name="ramdonflickoffString">通知灯随机单双闪 关闭</string>
+    <string name="getactivatePhonestatus">当前激活标志位:</string>
+    <string name="getactivatePhoneString">获取激活标志位</string>
+    <string name="setactivatePhoneString">设置激活标志位</string>
+    <string name="resetactivatePhoneString">擦除激活标志位</string>
+
+    <!--Check List-->
+    <string name="autobrightnesssplineArray">当前光感曲线</string>
+    <string name="autobrightnesssplineWhiteArray">当前白色TP光感曲线</string>
+    <string name="autobrightnesssplineBlackArray">当前黑色TP光感曲线</string>
+
+    <string name="autobrightnesssplineWhiteArrayOther">另外白色TP光感曲线</string>
+    <string name="autobrightnesssplineBlackArrayOther">另外黑色TP光感曲线</string>
+    <string name="autoBrightnessLevels">Light sensor LUX</string>
+    <string name="autoBrightnessLcdBacklightValues">LCD backlight</string>
+
+    <string name="level">(X轴光线强度/Y轴背光等级)</string>
+    <string name="wakelockstate">Wake Lock State</string>
+    <string name="partialwakeLock">CPU锁:</string>
+    <string name="screenonwakelock">保持屏幕不灭屏锁:</string>
+    <string name="proximityscreenoffwakelock">红外靠近灭屏锁:</string>
+    <string name="wakelock">Power锁:</string>
+    <string name="wakelockstatedeclaration">"说明：\nCPU锁,保持系统不睡眠;\n 保持屏幕不灭屏锁，屏幕不会自动熄灭，其中SCREEN_DIM_WAKE_LOCK，屏幕可以处于半暗状态;\n 红外靠近灭屏锁，PROXIMITY_SCREEN_OFF_WAKE_LOCK，用于通话靠近距离传感器自动灭屏;\n"</string>
+    <string name="wakinguptestdeclaration">"说明：\n打开该项之后，请进行多次亮屏灭屏操作，包括Home/Power键相关，USB接入，消息亮屏超时灭屏等等。\n建议单项多次实验，例如:按Power键亮屏灭屏，建议测试10次;\n"</string>
+    <string name="testcountnumber">Num:</string>
+    <string name="SetStepCountTitle">Set StepCount Test End Step.</string>
+    <string name="startstepcounttext">Start:</string>
+    <string name="endstepcounttext">End:</string>
+
+    <string name="wakeupconsumingtime">Waking up from sleep (ms)</string>
+    <string name="blockedscreenconsumingtime">Unblocked screen on after (ms)</string>
+    <string name="setdisplaypowermodeconsumingtime">Excessive delay in setPowerMode (ms)</string>
+    <string name="wakeupscreentime">Wakeup Screen (500ms)</string>
+</resources>

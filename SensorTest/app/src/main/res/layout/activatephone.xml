@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:divider="@drawable/spacer_medium"
+    android:showDividers="middle|end|beginning"
+    android:orientation="vertical">
+
+    <TextView android:id="@+id/currentactivatePhoneText" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:gravity="center_vertical|center"
+        android:textSize="25dip"
+        android:text="@string/getactivatePhonestatus" />
+
+    <RadioGroup  
+	android:id="@+id/activatePhoneGroup"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:gravity="fill_horizontal">  
+
+	<RadioButton  
+	    android:id="@+id/getactivatePhone"  
+	    android:layout_width="wrap_content"  
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/black"
+	    android:layout_weight="1"
+	    android:text="@string/getactivatePhoneString"/>
+
+	<RadioButton  
+	    android:id="@+id/setactivatePhone"  
+	    android:layout_width="wrap_content"  
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/black"
+	    android:layout_weight="1"
+	    android:text="@string/setactivatePhoneString"/>
+
+	<RadioButton  
+	    android:id="@+id/resetactivatePhone"  
+	    android:layout_width="wrap_content"  
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/black"
+	    android:layout_weight="1"
+	    android:text="@string/resetactivatePhoneString"/>
+    </RadioGroup>
+</LinearLayout>

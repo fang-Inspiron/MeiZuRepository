@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sensor Analysis</string>
+    <string name="title_section1">Sensor List</string>
+    <string name="title_section2">Sensor CTS</string>
+    <string name="title_section3">Check List</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="noValueYet">等待Sensor值...</string>
+    <string name="RadioButton1">最快</string>
+    <string name="RadioButton2">游戏</string>
+    <string name="RadioButton3">UI</string>
+    <string name="RadioButton4">普通</string>
+    <string name="SensorCtsTesting">测试中...稍等</string>
+    <!--
+    <string name="AmbiLightSensor">光线感应器</string>
+    <string name="ProximitySensor">距离传感器</string>
+    <string name="StepCounterSensor">计步器</string>
+    -->
+
+    <!--Chart Name-->
+    <string name="SensorRegisterTimeCost">注册耗时 单位(X轴第N次/Y轴毫秒)</string>
+    <string name="FirstEventTimeCost">报第一个值耗时 单位(X轴第N次/Y轴毫秒)</string>
+    <string name="FlushEventTimeCost">报Flush数据耗时 单位(X轴第N次/Y轴毫秒)</string>
+    <string name="FlushTimeCost">Flush接口耗时 单位(X轴第N次/Y轴毫秒)</string>
+    <string name="InjectSensorDataString">注入数据测试(次/Sensor报值)</string>
+
+    <string name="Notification_Light">通知灯测试</string>
+    <string name="ActivatePhone">激活手机</string>
+    <string name="AutoBrightnessSpline">光感曲线</string>
+    <string name="WakelockState">Power锁状态</string>
+    <string name="wakingup">休眠唤醒耗时分析</string>
+
+    <string name="flickonString">通知灯单闪 开</string>
+    <string name="flickoffString">通知灯单闪 关闭</string>
+    <string name="doubleflickonString">通知灯双闪 开</string>
+    <string name="doubleflickoffString">通知灯双闪 关闭</string>
+    <string name="ramdonflickonString">通知灯随机单双闪 开</string>
+    <string name="ramdonflickoffString">通知灯随机单双闪 关闭</string>
+    <string name="getactivatePhonestatus">当前激活标志位:</string>
+    <string name="getactivatePhoneString">获取激活标志位</string>
+    <string name="setactivatePhoneString">设置激活标志位</string>
+    <string name="resetactivatePhoneString">擦除激活标志位</string>
+
+    <!--Check List-->
+    <string name="autobrightnesssplineArray">当前光感曲线</string>
+    <string name="autobrightnesssplineWhiteArray">当前白色TP光感曲线</string>
+    <string name="autobrightnesssplineBlackArray">当前黑色TP光感曲线</string>
+
+    <string name="autobrightnesssplineWhiteArrayOther">另外白色TP光感曲线</string>
+    <string name="autobrightnesssplineBlackArrayOther">另外黑色TP光感曲线</string>
+    <string name="level">(X轴光线强度/Y轴背光等级)</string>
+    <string name="autoBrightnessLevels">光线强度</string>
+    <string name="autoBrightnessLcdBacklightValues">背光等级</string>
+    <string name="wakelockstate">Power锁状态分析</string>
+    <string name="partialwakeLock">CPU锁:</string>
+    <string name="screenonwakelock">保持屏幕不灭屏锁:</string>
+    <string name="proximityscreenoffwakelock">红外靠近灭屏锁:</string>
+    <string name="wakelock">Power锁:</string>
+    <string name="wakelockstatedeclaration">"说明：\nCPU锁:保持系统不睡眠;\n\n保持屏幕不灭屏锁:屏幕不会自动熄灭，其中SCREEN_DIM_WAKE_LOCK，屏幕可以处于半暗状态;\n\nPROXIMITY_SCREEN_OFF_WAKE_LOCK红外靠近灭屏锁:用于通话、微信QQ语音等靠近距离传感器自动灭屏;\n"</string>
+    <string name="wakinguptestdeclaration">"说明：\n打开该项之后，请进行多次亮屏灭屏操作，包括Home/Power键相关，USB接入，消息亮屏超时灭屏等等。\n建议单项多次实验，例如:按Power键亮屏灭屏,建议测试10次;\n"</string>
+    <string name="testcountnumber">当前测试次数:</string>
+
+    <string name="SetStepCountTitle">计步器注入数据测试配置</string>
+    <string name="startstepcounttext">开始步伐数:</string>
+    <string name="endstepcounttext">结束步伐数:</string>
+
+    <string name="wakeupconsumingtime">亮屏耗时 (ms)</string>
+    <string name="blockedscreenconsumingtime">窗口绘制耗时 (ms)</string>
+    <string name="setdisplaypowermodeconsumingtime">设置FBIOBLANK耗时 (ms)，唤醒屏幕相关</string>
+    <string name="wakeupscreentime">合适亮屏耗时: 500ms</string>
+</resources>

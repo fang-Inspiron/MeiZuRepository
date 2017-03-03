@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:divider="@drawable/spacer_medium"
+    android:showDividers="middle|end|beginning"
+    android:orientation="vertical">
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center"
+        android:background="@color/gray">
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="1dp">
+
+	    <TextView
+	        android:id="@+id/table1name"
+	        android:layout_weight="1"
+	        android:gravity="center_vertical|center"
+	        android:textColor="@color/black"
+	        android:background="@drawable/shapee"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"/>
+	    <TextView
+	        android:id="@+id/table2name"
+	        android:layout_weight="1"
+	        android:gravity="center_vertical|center"
+	        android:textColor="@color/black"
+	        android:background="@drawable/shapee"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"/>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/tableLayout"
+        android:orientation="horizontal"
+        android:gravity="fill_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+	    <TableLayout
+		android:id="@+id/table1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:stretchColumns="*"
+		android:background="@color/gray"
+		android:layout_marginRight="1dp"
+		android:layout_weight="1">
+		<TableRow
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:layout_margin="1dp"
+		    android:layout_weight="1">
+		    <TextView android:text="@string/autoBrightnessLevels"
+		        android:background="@drawable/shapee"
+		        android:layout_weight="1"
+		        android:textColor="@color/black"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" />
+		    <TextView android:text="@string/autoBrightnessLcdBacklightValues"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:background="@drawable/shapee"
+		        android:textColor="@color/black"/>
+		</TableRow>
+	    </TableLayout>
+	    <TableLayout
+			android:id="@+id/table2"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:stretchColumns="*"
+			android:background="@color/gray"
+			android:layout_marginRight="1dp"
+			android:layout_weight="1">
+			<TableRow
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:orientation="horizontal"
+			    android:layout_margin="1dp"
+			    android:layout_weight="1">
+			    <TextView android:text="@string/autoBrightnessLevels"
+			        android:background="@drawable/shapee"
+			        android:layout_weight="1"
+			        android:textColor="@color/black"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content" />
+			    <TextView android:text="@string/autoBrightnessLcdBacklightValues"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="1"
+			        android:background="@drawable/shapee"
+			        android:textColor="@color/black"/>
+			</TableRow>
+	    </TableLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/wakelock"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center"
+        android:textColor="@color/black"
+        android:background="@drawable/shapee"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

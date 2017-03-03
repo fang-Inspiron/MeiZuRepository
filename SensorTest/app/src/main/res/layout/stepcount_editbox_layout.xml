@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView  
+        android:layout_gravity="center_horizontal"  
+        android:gravity="center_horizontal"
+        android:textSize="20dip"
+        android:textColor="@color/black"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:text="@string/SetStepCountTitle" />  
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+        <TextView android:id="@+id/start_stepcount_Text" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/startstepcounttext" />
+
+        <EditText android:id="@+id/start_stepcount_edit"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:numeric="integer"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+        <TextView android:id="@+id/end_stepcount_Text" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/endstepcounttext" />
+
+        <EditText android:id="@+id/end_stepcount_edit"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:numeric="integer"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
